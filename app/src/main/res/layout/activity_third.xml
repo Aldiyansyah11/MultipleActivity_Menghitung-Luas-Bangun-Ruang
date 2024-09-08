@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#ff00ff"
+    tools:context=".ThirdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_kubus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kubus" />
+        <Button
+            android:id="@+id/btn_balok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balok" />
+        <Button
+            android:id="@+id/btn_segitiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Segitiga" />
+        <Button
+            android:id="@+id/btn_lingkaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lingkaran" />
+    </LinearLayout>
+
+</RelativeLayout>
